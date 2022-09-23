@@ -106,7 +106,7 @@ function prepareSlideshow(){
     slideshow.setAttribute('id','slideshow')
     var frame = document.createElement('img')
     // frame就是个四个角圆角，其它透明的边框
-    // frame.setAttribute('src','../img/frame.png')
+    // frame.setAttribute('src','img/frame.png')
     // frame.setAttribute('alt','')
     // frame.setAttribute('id','frame')
     slideshow.appendChild(frame)
@@ -249,7 +249,7 @@ function preparePlaceholder(){
     if(!document.getElementById('imagegallery')) return false
     var placeholder = document.createElement('img')
     placeholder.setAttribute('id', 'placeholder')
-    placeholder.setAttribute('src', '../img/photos/1.jpg')
+    placeholder.setAttribute('src', 'img/photos/1.jpg')
     placeholder.setAttribute('alt', 'my image gallery')
     var description = document.createElement('p')
     description.setAttribute('id', 'description')
@@ -359,7 +359,7 @@ function displayAjaxLoading(element){
     var box = document.createElement('div')
     box.setAttribute('class', 'ajaxbox')
     var content = document.createElement('img')
-    content.setAttribute('src', '../img/loading.png')
+    content.setAttribute('src', 'img/loading.png')
     content.setAttribute('class', 'ajaximg')
     box.appendChild(content)
     element.appendChild(box)
