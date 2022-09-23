@@ -111,7 +111,7 @@ function prepareSlideshow(){
     // frame.setAttribute('id','frame')
     slideshow.appendChild(frame)
     var preview = document.createElement('img')
-    preview.setAttribute('src','../img/slideshow.png')
+    preview.setAttribute('src','img/slideshow.png')
     preview.setAttribute('alt','')
     preview.setAttribute('id','preview')
     slideshow.appendChild(preview)
